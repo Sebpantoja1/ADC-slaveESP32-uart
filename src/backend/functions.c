@@ -1,5 +1,5 @@
 #include "config.h"
-#include "functions.h"
+// #include "functions.h"
 
 // ============ VARIABLES GLOBALES ============
 QueueHandle_t adc_data_queue;

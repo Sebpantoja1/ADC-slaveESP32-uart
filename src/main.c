@@ -1,5 +1,5 @@
 #include "backend\config.h"
-#include "backend\functions.h"
+//#include "backend\functions.h"
 
 void app_main(void) {
     // ============ INICIALIZACIÓN DEL SISTEMA ============

@@ -52,17 +52,17 @@ Mkfile.old
 dkms.conf
 
 # Ignorar las carpetas generadas por PlatformIO
-.pio
-.pioenvs
-.piolibdeps
+*.pio
+*.pioenvs
+*.piolibdeps
 
 # Ignorar archivos de compilación y resultados de ESP-IDF
 build/
 build_*_*/
 
 # Ignorar archivos de configuración generados automáticamente
-sdkconfig
-sdkconfig.old
+*sdkconfig
+*sdkconfig.old
 
 # Ignorar archivos de bloqueo y componentes administrados
 dependencies.lock

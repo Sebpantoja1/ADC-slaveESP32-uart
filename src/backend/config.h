@@ -57,9 +57,9 @@
 #define DATA_PACKET_SIZE 4
 
 // ============ MULTIPLEXOR ============
-#define MUX_DEFAULT_DELAY_MS 10000
+#define MUX_DEFAULT_DELAY_MS 1000 
 #define MUX_MIN_DELAY_MS 100
-#define MUX_MAX_DELAY_MS 60000
+#define MUX_MAX_DELAY_MS 10000
 
 // ============ LOGGING ============
 static const char *TAG = "ECG_SYSTEM";
